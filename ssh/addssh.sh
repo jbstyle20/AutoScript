@@ -53,7 +53,7 @@ hariini=`date -d "0 days" +"%Y-%m-%d"`
 expi=`date -d "$masaaktif days" +"%Y-%m-%d"`
 echo -e ""
 echo -e "═══════════════════════" | lolcat
-echo -e "Informasi SSH & OpenVPN Premium By $domain"
+echo -e "Informasi SSH & OpenVPN Premium"
 echo -e "═══════════════════════" | lolcat
 echo -e "IP/Host             : $IP" | lolcat
 echo -e "Domain              : $domain" | lolcat
