@@ -59,8 +59,6 @@ echo -e "Link TR  : ${trojanlink}" | lolcat
 echo -e "══════════════════════════" | lolcat
 echo -e "Link TR IP  : ${trojanlinkk}" | lolcat
 echo -e "══════════════════════════" | lolcat
-echo -e "${RED}AutoScriptSSH By SSHSEDANG${NC}"
-echo -e "══════════════════════════" | lolcat
 echo -e""
 read -p "Ketik Enter Untuk Kembali Ke Menu...."
 sleep 1
