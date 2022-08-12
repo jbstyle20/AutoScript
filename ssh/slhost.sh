@@ -20,9 +20,9 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=apntunnel.me
-SUB_DOMAIN=vpn-${sub}.apntunnel.me
-NS_DOMAIN=ns-${subsl}.apntunnel.me
+DOMAIN=apntunnels.me
+SUB_DOMAIN=vpn-${sub}.apntunnels.me
+NS_DOMAIN=ns-${subsl}.apntunnels.me
 CF_ID=rezaadrian310x@gmail.com
 CF_KEY=c8501ca624a84655a46ee5c52a8171809ce78
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/ipvps.conf
